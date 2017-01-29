@@ -1,0 +1,550 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+div, a, h2, .mdl-button {
+    font-family: 'Noto Sans KR', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+.backgrounudimagegebabybaby {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    margin-top: 0px;
+    padding: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    background-image: url('https://raw.githubusercontent.com/hjh010501/ImageHosting/master/1.jpg');
+    z-index: 0;
+    overflow: hidden;
+}
+
+.backgroundoverlay {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(20,20,20, 0.90);
+    background: linear-gradient(to bottom right, rgba(40,40,40,0.90), rgba(20,20,20,0.90));
+    background: -webkit-linear-gradient(left top, rgba(40,40,40,0.90), rgba(20,20,20,0.90));
+    background: -o-linear-gradient(left top, rgba(40,40,40,0.90), rgba(20,20,20,0.90));
+    background: -moz-linear-gradient(left top, rgba(40,40,40,0.90), rgba(20,20,20,0.90));
+
+}
+
+.loginrightmenu {
+
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+}
+
+.logo {
+
+     width: 161px;
+     height: 45px;
+     background: url('ch_logo_w.png') center / cover;
+     z-index: 3;
+     position: absolute;
+     left: 50%;
+     margin-left: -80px;
+     margin-top: 80px;
+
+ }
+
+.logoup {
+
+    width: 445px;
+    height: 45px;
+    background: url('ch_logo_up_w.png') center / cover;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    margin-left: -222.5px;
+    margin-top: 80px;
+
+}
+
+.challenge > .logoup {
+
+    width: 325px;
+    height: 45px;
+    background: url('ch_logo_pb_w.png') center / cover;
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    margin-left: -162.5px;
+    margin-top: 80px;
+
+}
+
+#logina {
+
+    float: right;
+    margin-top: 27px;
+    margin-right: 20px;
+    color: rgba(255,255,255, 0.5);
+    transition: 0.2s;
+    cursor: hand;
+}
+
+
+#registera {
+
+    float: right;
+    margin-top: 27px;
+    margin-right: 25px;
+    color: rgba(255,255,255, 0.5);
+    transition: 0.2s;
+    cursor: hand;
+
+}
+
+#logina:hover, #registera:hover {
+    color: rgba(255,64,129, 1);
+}
+
+.main, .userpg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+
+}
+
+.con {
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -750px;
+}
+
+.userpb {
+    position: absolute;
+    width: 1500px;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -750px;
+}
+
+#dates {
+
+    position:absolute;
+    float: left;
+    margin-top: 19px;
+    margin-left: 15px;
+    color: rgba(255,255,255, 0.5);
+}
+
+.copyright {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 50%;
+    margin-left: -250px;
+    text-align: center;
+    color: rgba(255,255,255, 0.5);
+    bottom: 0;
+}
+
+#times {
+    position:absolute;
+    float: left;
+    margin-top: 37px;
+    margin-left: 15px;
+    font-size:18px;
+    color: rgba(255,255,255, 0.5);
+}
+
+
+.fristfloar {
+
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+}
+
+.secendfloar {
+
+    display:none;
+    width: 100%;
+    height: 100%;
+    margin-top: 1080px;
+    position:absolute;
+
+}
+
+.profile {
+    display: none;
+}
+
+.challenge{
+    display: none;
+}
+
+.one {
+    float:left;
+    transition: 0.5s;
+}
+
+.two, .three{
+    margin-left: 100px;
+    float:left;
+    transition: 0.5s;
+
+}
+
+
+.four{
+    margin-left: 100px;
+    float:left;
+    transition: 0.5s;
+
+}
+
+.shearty {
+    margin-top: 100px;
+}
+
+.demo-card-square {
+    border-radius: 0px;
+
+
+}
+
+ .demo-card-square.mdl-card {
+     width: 300px;
+     height: 300px;
+ }
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+    background-color: #232323;
+}
+
+.backblur {
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    display: none;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.alertbox {
+
+    position: fixed;
+    display: none;
+    z-index: 6;
+    width: 700px;
+    height: 400px;
+    background-color: #fff;
+    left: 50%;
+    margin-left: -350px;
+    top: 50%;
+    margin-top: -100px;
+    box-shadow: 0px 1px 25px rgba(0,0,0,0.35);
+    opacity: 0;
+
+}
+
+
+.Login {
+
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -200px;
+    display: none;
+
+}
+
+.userpg {
+    position: absolute;
+    width: 400px;
+    height: 330px;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -200px;
+}
+
+.Register {
+
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -200px;
+    display: none;
+}
+
+.mdl-textfield__input {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size:15px !important;
+    color: #000;
+}
+
+
+
+.pg {
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+.pginput {
+    width: 100%;
+
+}
+
+.pginput2 {
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+    color: #fff;
+}
+
+.pginputitle {
+    color: rgba(255,255,255,0.5);
+}
+
+.backbutton {
+
+     float: right;
+     margin-right: 5px;
+
+ }
+
+.backbuttontext{
+
+    color: rgba(255,255,255,0.5);
+
+}
+
+#changebutton {
+
+    float:right;
+
+}
+
+.accounttext {
+    width: 100%;
+}
+
+
+.toptitle {
+
+    float: left;
+    margin-top: 5px;
+    width: 161px;
+    height: 44px;
+    background: url('ch_logo_b.png') center / cover;
+    color: #000;
+
+}
+
+.toptitle2 {
+
+    margin-top: 33px;
+    float: right;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:18px;
+    color: #000;
+
+}
+
+.yourname {
+     padding-bottom: 50px;
+ }
+
+#registerbutton {
+
+    float:right;
+
+}
+
+@media (max-width: 1565px) {
+
+    .main{
+        position: absolute;
+        width: 100%;
+        height: 1200px;
+        background-color: transparent;
+
+
+    }
+
+    .con {
+        position: absolute;
+        width: 900px;
+        height: 700px;
+        top: 50%;
+        margin-top: -350px;
+        left: 50%;
+        margin-left: -350px;
+    }
+
+    .userpb {
+        position: absolute;
+        width: 900px;
+        top: 50%;
+        margin-top: -150px;
+        left: 50%;
+        margin-left: -350px;
+    }
+
+    .userpb > .backbutton {
+margin-right: 200px;
+    }
+
+    .three {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+    .four {
+        margin-top: 100px;
+    }
+}
+
+@media  (max-width: 750px) {
+
+    .main{
+        position: absolute;
+        width: 100%;
+        height: 1750px;
+        background-color: transparent;
+
+
+    }
+
+    .con {
+        position: absolute;
+        width: 300px;
+        height: 1350px;
+        margin-top: -700px;
+        left: 50%;
+        margin-left: -150px;
+    }
+
+    .userpb {
+        position: absolute;
+        width: 300px;
+        top: 50%;
+        margin-top: -150px;
+        left: 50%;
+        margin-left: -150px;
+    }
+    .userpb > .backbutton {
+        margin-right: 0px;
+
+    }
+    .one, .two,.three, .four {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .shearty {
+        margin-top: 50px;
+    }
+
+    #dates, #times {
+
+        display: none;
+
+    }
+
+    .yourname {
+        padding-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 1140px) {
+    .loginbackslideshow li div h3 { font-size: 140px }
+}
+
+@media screen and (max-width: 600px) {
+    .loginbackslideshow li div h3 { font-size: 80px }
+}
+
+@media screen and (max-width: 480px) {
+
+    .loginbackslideshow,
+    .loginbackslideshow:after {
+        overflow: hidden;
+        position: fixed;
+        min-height: 760px;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+        margin-top: 0px;
+    }
+
+    .loginbackslideshow li span {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: transparent;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: none;
+        opacity: 0;
+        z-index: 0;
+        -webkit-backface-visibility: hidden;
+        -webkit-animation: imageAnimation 30s linear infinite 0s;
+        -moz-animation: imageAnimation 30s linear infinite 0s;
+        -o-animation: imageAnimation 30s linear infinite 0s;
+        -ms-animation: imageAnimation 30s linear infinite 0s;
+        animation: imageAnimation 30s linear infinite 0s;
+    }
+
+    .loginbackgroundoverlay {
+
+
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: rgba(38, 43, 48, 0.90);
+        background: linear-gradient(to bottom right, rgba(38,43,48,0.90), rgba(27,30,33,0.90));
+        background: -webkit-linear-gradient(left top, rgba(38,43,48,0.90), rgba(27,30,33,0.90));
+        background: -o-linear-gradient(left top, rgba(38,43,48,0.90), rgba(27,30,33,0.90));
+        background: -moz-linear-gradient(left top, rgba(38,43,48,0.90), rgba(27,30,33,0.90));
+
+    }
+
+    .Login {
+
+        position: absolute;
+        width: 290px;
+        height: 250px;
+        top: 50%;
+        left: 50%;
+        margin-top: -125px;
+        margin-left: -145px;
+
+    }
+
+
+
+}
